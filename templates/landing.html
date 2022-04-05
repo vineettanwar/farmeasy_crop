@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>CropFit</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='landing.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar" id="nav">
+        <label id="lbl">CropFit</label>
+            <ul id="ul">
+                <li><a>About</a></li>
+                <li><a>News</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Try</a></li>
+                <li><a>Report</a></li>
+                <li><a>Home</a></li>
+            </ul>
+        <label id="sharp"><span class="material-icons" style="font-size: 3vw;">reorder</span></label>
+    </div>
+    <div class="container">
+        <h1>TRUST &nbsp; & &nbsp; CARE</h1>
+        <h2>Find Crops That Suits<br> Your Farm</h2>
+        <h3><button type="button" id="clickk">Get Started &nbsp;&nbsp;<span class="material-icons" style="vertical-align: middle; transition: 0.5s;">arrow_forward</span></button> </h3>
+    </div>
+
+    <div class="container2">
+        <h4>How it <span id="how"> Works?</span></h4>
+        <div class="parent">
+            <div class="div1">
+                <div class="boxA">
+                    <div class="box1"> 
+                        
+                    </div>
+                    <div class="box2"> 
+                        <span>Smart Input :</span> We collect all crucial crop-related parameters. Soil N, P, and K levels, as well as average temperature, rainfall, and humidity.
+                    </div>
+                </div>
+            </div>
+            <div class="div2">  
+                <div class="boxB">
+                    <div class="box3"> 
+                        
+                    </div>
+                    <div class="box4"> 
+                        Model trained with a dataset of 22 crops using a variety of machine learning approaches and a support vector for increased confidence.
+                    </div>
+                </div>    
+            </div>
+            <div class="div3">
+                <div class="boxC">
+                    <div class="box5"> 
+                        
+                    </div>
+                    <div class="box6"> 
+                        Recommends the most suitable crop following analysis, along with a full crop description.
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="parent1">
+            <div class="div11"> 
+                <h5>Select your State and District to get started</label>
+
+                    <form action="/form" method="post">
+                        <select class="form-control" id="inputState" name="state" required>
+                            <option value="SelectState">Select State</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jammu And Kashmir">Jammu And Kashmir</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Madya Pradesh">Madya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttaranchal">Uttaranchal</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="West Bengal">West Bengal</option>
+                            <option disabled style="background-color:#aaa; color:#fff">UNION Territories</option>
+                            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Dadra And Nagar Haveli">Dadar And Nagar Haveli</option>
+                            <option value="Daman and Diu">Daman and Diu</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Lakshadweep">Lakshadweep</option>
+                            <option value="Puducherry">Puducherry</option>
+                        </select>
+                        <br>
+                        <br>
+                        <br>
+                        <select class="form-co" id="inputDistrict" name="district" required>
+                            <option value="">Select District</option>
+                        </select>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit" id="sbmt">Submit</button>
+                    </form>
+            </div>
+            <div class="div22"> 
+                <h5>Kisan 24/7</h5>
+                <iframe style="height: 90%;width: 90%;margin-left: 6%;margin-top: 2%;" src="https://www.youtube.com/embed/m6i2IeOaDs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="parent2">
+            <div class="div111">
+                <a>
+                    <span id="strng">About Us</span> <br><br>
+                    <hr id="hra" color="#7D5C2B"><br>
+                    We are students of Sharda<br>University who aims to build <br>acomplete informative<br> platformfor farmers so they<br> can take informed decisions.
+                </a>
+            </div>
+            <div class="div222">  
+                <a>
+                    <span id="strng">Get in Touch</span> <br><br>
+                    <hr id="hra" color="#7D5C2B"><br>
+                    Sharda University<br>
+                    Plot no 32, 34<br> 
+                    Knowledge Park III<br>Greater Noida<br> Uttar Pradesh 201310
+
+                </a>
+            </div>
+            <div class="div333"> 
+                <a>
+                    <span id="strng">Contact Us</span> <br><br>
+                    <hr id="hra" color="#7D5C2B"><br>
+                    Cropfit on Twitter<br>
+                    Cropfit on Facebook<br>
+                    Cropfit on Telegram<br>
+                    +91 6969696969<br>
+                    cropfitniggs@tanwar.com<br>
+                </a>
+            </div>
+            <div class="div444">
+                <a>
+                    <span id="strng">Feedback</span> <br><br>
+                    <hr id="hra" color="#7D5C2B"><br>
+                    Please provide us with<br> your feedback<br><br>
+                    <input type="text" id="feedback" placeholder="Feedback">
+
+                </a>
+            </div>
+            </div>
+    </div>
+    <script src="{{url_for('static',filename='landing.js')}}"></script>
+</body>
+</html>
