@@ -63,8 +63,7 @@ run app.py
 ![architecture](assets/works.png)
 ![architecture](assets/home2.PNG)
 ![architecture](assets/form1.png)
-![architecture](assets/smart input based on location.jpg)
-![architecture](assets/output.jpg)
+![architecture](assets/output1.png)
 
 
 ## youtube video link
