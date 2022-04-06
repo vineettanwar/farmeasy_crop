@@ -60,8 +60,9 @@ run app.py
 
 ## Screenshots
 ![architecture](assets/home1.PNG)
+![architecture](assets/works.png)
 ![architecture](assets/home2.PNG)
-![architecture](assets/Address for nearest lab.jpg)
+![architecture](assets/form1.png)
 ![architecture](assets/smart input based on location.jpg)
 ![architecture](assets/output.jpg)
 
