@@ -1,5 +1,5 @@
 
-# Project Title
+# Project Title : CROPFIT - platform to help farmers take informed decisions.
 
  -A vast majority of the Indian farmers believe in depending on their intuition to decide which crop to sow in a particular season. They find comfort in simply following the ancestral farming patterns and norms without realizing the fact that crop output is circumstantial, depending heavily on the present-day weather and soil conditions. 
 
