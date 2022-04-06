@@ -1,9 +1,11 @@
 
 # Project Title
 
-A vast majority of the Indian farmers believe in depending on their intuition to decide which crop to sow in a particular season. They find comfort in simply following the ancestral farming patterns and norms without realizing the fact that crop output is circumstantial, depending heavily on the present-day weather and soil conditions. 
-However, a single farmer cannot be expected to take into account all the innumerable factors that contribute to crop growth before reaching a consensus about which one to grow. 
-Our project solves this problem by using a combination of analytics and machine learning so that the farmers can make a more informed decision.
+ -A vast majority of the Indian farmers believe in depending on their intuition to decide which crop to sow in a particular season. They find comfort in simply following the ancestral farming patterns and norms without realizing the fact that crop output is circumstantial, depending heavily on the present-day weather and soil conditions. 
+
+ -However, a single farmer cannot be expected to take into account all the innumerable factors that contribute to crop growth before reaching a consensus about which one to grow. 
+
+ -Our project solves this problem by using a combination of analytics and machine learning so that the farmers can make a more informed decision.
 
 ![architecture](assets/architecture.png)
 
@@ -18,6 +20,7 @@ Datasets used :
 - soil.xls : address of nearest soil testing laboratory based on state and district of user.
 - crop_description : description of various crops which our model will predict.
 - crop_recommendation.csv : dataset used to train the model.
+
 ![architecture](assets/data.PNG)
 
 model.py and model.ipynb contain the trained model and accuracies of various classifiers used.
