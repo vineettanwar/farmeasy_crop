@@ -46,7 +46,7 @@ requirements.txt contains all requirements needed to run this application locall
 Clone the project
 
 ```bash
-  git clone https://github.com/vineettanwar9/cropfit.git
+  git clone https://github.com/vineettanwar/farmeasy_crop.git
 ```
 
 Go to the project directory
@@ -58,13 +58,13 @@ Go to the project directory
 Install requirements
 
 ```bash
-  pip install -r requirements 
+  pip install -r requirements.txt
 ```
 
 run app.py 
 
 ```bash
-  run app.py from cropfit 
+  run app.py from farmeasy_crop
 ```
 
 ## USE WITHOUT INSTALLATION
