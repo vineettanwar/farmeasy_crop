@@ -18,7 +18,7 @@ Datasets used :
 - soil.xls : address of nearest soil testing laboratory based on state and district of user.
 - crop_description : description of various crops which our model will predict.
 - crop_recommendation.csv : dataset used to train the model.
-![architecture](assets/data.png)
+![architecture](assets/data.PNG)
 
 model.py and model.ipynb contain the trained model and accuracies of various classifiers used.
 
