@@ -61,6 +61,10 @@ run app.py
   run app.py from cropfit 
 ```
 
+## USE WITHOUT INSTALLATION
+ LINK : https://cropfitt.herokuapp.com/
+ use above link to use and access application without installation 
+
 
 ## Screenshots
 ![architecture](assets/home1.PNG)
