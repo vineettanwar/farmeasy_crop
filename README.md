@@ -1,11 +1,11 @@
 
 # Project Title : CROPFIT - platform to help farmers take informed decisions.
 
- -A vast majority of the Indian farmers believe in depending on their intuition to decide which crop to sow in a particular season. They find comfort in simply following the ancestral farming patterns and norms without realizing the fact that crop output is circumstantial, depending heavily on the present-day weather and soil conditions. 
+ A vast majority of the Indian farmers believe in depending on their intuition to decide which crop to sow in a particular season. They find comfort in simply following the ancestral farming patterns and norms without realizing the fact that crop output is circumstantial, depending heavily on the present-day weather and soil conditions. 
 
- -However, a single farmer cannot be expected to take into account all the innumerable factors that contribute to crop growth before reaching a consensus about which one to grow. 
+ However, a single farmer cannot be expected to take into account all the innumerable factors that contribute to crop growth before reaching a consensus about which one to grow. 
 
- -Our project solves this problem by using a combination of analytics and machine learning so that the farmers can make a more informed decision.
+ Our project solves this problem by using a combination of analytics and machine learning so that the farmers can make a more informed decision.
 
 ![architecture](assets/architecture.png)
 
@@ -27,7 +27,13 @@ model.py and model.ipynb contain the trained model and accuracies of various cla
 
 model.pkl is the binary format of trained model.
 
+
+![architecture](assets/backend.png)
+
+
 app.py is the main application using flask.
+
+soil.py and tempa.py are used for extracting address of nearest soil testing facility and Av. rainfall, humdity and temperature based on user location. 
 
 requirements.txt contains all requirements needed to run this application locally.
 
