@@ -59,8 +59,11 @@ run app.py
 
 
 ## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![architecture](assets/home1.PNG)
+![architecture](assets/home2.PNG)
+![architecture](assets/Address for nearest lab.jpg)
+![architecture](assets/smart input based on location.jpg)
+![architecture](assets/output.jpg)
 
 
 ## youtube video link
